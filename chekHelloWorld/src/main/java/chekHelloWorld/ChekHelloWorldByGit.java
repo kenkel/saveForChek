@@ -9,7 +9,11 @@ public class ChekHelloWorldByGit {
 
 	}
 	public String getCheckMessage(){
+
 		return testMessage;
+	}
+	public void printCheckMessage(){
+		System.out.println(testMessage);
 	}
 
 }
